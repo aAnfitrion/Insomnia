@@ -49,7 +49,9 @@ export default function ModsGuide() {
           </div>
           <div class='mt-4 mb-4'>
             <h2>Guía de comandos</h2>
-            <p>La guía de comandos de moderación. En la que () es opcional, mientras que [] es obligatorio.</p>
+            <p>
+              La guía de comandos de moderación. En la que () es opcional, mientras que [] es obligatorio. Estos comandos solo pueden ser ejecutados con el boot <span class='text-primary'>mee6</span>.
+            </p>
             <table class='table'>
               <thead>
                 <tr>
@@ -100,7 +102,8 @@ export default function ModsGuide() {
           <h2>Guías de sanciones</h2>
           <div>
             <p>
-              Esta es la guía de los moderadores para aplicar sanciones. 
+              Esta es la guía de los moderadores para aplicar sanciones. Las sanciones solo deben ser ejecutadas en el canal <span class='text-primary'>#⚠・sanciones</span>. Las sanciones solo deben ser ejecutadas usando el bot mee6. <br/>
+              Si un usuario obtiene 3 advertencias en menos de una semana, será silenciado durante 7 días automaticamente por mee6. Si un usuario obtiene 7 advertencias en menos de un mes, será automaticamente baneado temporalmente durante 30 días por mee6. 
             </p>
           </div>
           <table class='table border'>
@@ -109,12 +112,12 @@ export default function ModsGuide() {
                 <th scope='col'>Motivo</th>
                 <th scope='col'>Primera acción</th>
                 <th scope='col'>Si se repite</th>
-                <th scope='col'>Sanción</th>
+                <th scope='col'>Ultimo acto</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th>Repetir (flood).</th>
+                <th>Repetir mensajes o reacciones (flood).</th>
                 <th>Borrar mensajes y advertir al usuario.</th>
                 <th>Borrar mensajes y advertir al usuario.</th>
                 <th>Silenciar durante 3 días.</th>
@@ -170,6 +173,18 @@ export default function ModsGuide() {
               <tr>
                 <th>Reproducir audios, hacer sonidos molestos o usar moduladores de voz.</th>
                 <th>Advertir verbalmente al usuario.</th>
+                <th>Silenciar durante 3 días.</th>
+                <th></th>
+              </tr>
+              <tr>
+                <th>Tener menos de 13 años.</th>
+                <th>Banear al usuario.</th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr>
+                <th>Retransmitir contenido con derechos de autor.</th>
+                <th>Advertir al usuario.</th>
                 <th>Silenciar durante 3 días.</th>
                 <th></th>
               </tr>
