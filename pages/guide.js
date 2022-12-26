@@ -17,7 +17,21 @@ export default function Guide() {
               <div class="d-grid gap">
                 <Link class='btn btn-primary' href='/guide/modsGuide'>Leer</Link>
               </div>
-            </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Guía para diseñadores</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Primeros pasos</h6>
+              <p class="card-text">
+                Guía que todos los diseñadores deben seguir.
+              </p>
+              <div class="d-grid gap">
+                <Link class='btn btn-primary' href='/guide/modsGuide'>Leer</Link>
+              </div>
+            </div> 
           </div>
         </div>
         <div class="col-1"></div>
